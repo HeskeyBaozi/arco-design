@@ -1,8 +1,8 @@
 cd site
-yarn
+pnpm install
 
 cd ..
-yarn
-yarn icon
-yarn build
+pnpm install
+pnpm run icon
+pnpm run build
 
