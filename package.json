@@ -26,7 +26,7 @@
     "build:hooks:es": "cd hooks && pnpm run build:es",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider arco-scripts build:component && pnpm run build:dist:dev && pnpm run build:css:dev && pnpm run build:hooks",
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider arco-scripts dev:component ",
-    "dev:site": "arco-scripts dev:site --port 9000",
+    "dev:site": "NODE_OPTIONS=--openssl-legacy-provider arco-scripts dev:site --port 9000",
     "build:site": "arco-scripts build:site",
     "demo": "start-storybook -p 6006",
     "changelog": "arco-scripts changelog",

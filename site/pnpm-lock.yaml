@@ -7,6 +7,9 @@ settings:
 importers:
   .:
     dependencies:
+      '@antv/g-canvas':
+        specifier: ^0.5.12
+        version: 0.5.12
       '@antv/g2':
         specifier: ^4.1.12
         version: 4.2.5
@@ -7561,7 +7564,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.31':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@loadable/component@5.15.2(react@17.0.2)':
     dependencies:

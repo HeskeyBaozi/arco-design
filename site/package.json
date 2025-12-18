@@ -2,6 +2,7 @@
   "name": "@arco-design/static-pc-site",
   "version": "2.4.0",
   "dependencies": {
+    "@antv/g-canvas": "^0.5.12",
     "@antv/g2": "^4.1.12",
     "@arco-materials/site-footer": "^1.5.3",
     "@arco-materials/site-navbar-new": "^1.2.13",
